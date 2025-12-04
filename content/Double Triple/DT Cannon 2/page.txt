@@ -1,0 +1,29 @@
+<div class="article-title">DT Cannon 2</div>
+
+<div class="h1">DT Cannon 2 Setup</div>
+<div class="text">
+  DT Cannon 2 is an improved variant of the original DT Cannon pattern. This version
+  offers better stability and more flexible execution options while maintaining the
+  core cannon structure.
+</div>
+
+---
+
+<div class="h2">Enhanced Structure</div>
+<div class="text">
+  DT Cannon 2 features an enhanced structure that provides more reliable T-Spin Triple
+  execution. The pattern has been optimized for better piece flow and reduced vulnerability.
+</div>
+
+[[BOARD: cannon2_structure.txt]]
+
+---
+
+<div class="h2">Improvements Over DT Cannon</div>
+<div class="text">
+  The main improvements in DT Cannon 2 include better piece economy, increased stability,
+  and more forgiving execution requirements compared to the original DT Cannon.
+</div>
+
+SOURCE: DT Cannon 2 (Hard Drop) - https://harddrop.com/wiki/DT_Cannon_2
+

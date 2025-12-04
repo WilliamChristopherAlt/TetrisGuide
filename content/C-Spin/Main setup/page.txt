@@ -1,0 +1,40 @@
+<div class="article-title">Main setup</div>
+
+<div class="h1">C-Spin Main Setup</div>
+<div class="text">
+  The C-Spin is an advanced technique that creates a C-shaped cavity for T-Spin execution.
+  The main setup pattern is fundamental to understanding and executing C-Spin techniques
+  effectively in competitive play.
+</div>
+
+---
+
+<div class="h2">C-Shaped Structure</div>
+<div class="text">
+  The C-Spin main setup creates a distinctive C-shaped structure on the board. This
+  pattern forms a cavity that allows for T-Spin execution with unique piece placement
+  requirements.
+</div>
+
+[[BOARD: c_spin_pattern.txt]]
+
+---
+
+<div class="h2">Building the C-Spin</div>
+<div class="text">
+  Constructing the C-Spin main setup requires careful piece placement to maintain the
+  C-shaped structure while creating the necessary cavity for T-Spin execution. The pattern
+  is compact and efficient.
+</div>
+
+---
+
+<div class="h2">Execution Tips</div>
+<div class="text">
+  When executing the C-Spin main setup, pay attention to piece order and rotation timing.
+  The C-shaped structure provides flexibility but requires precise execution to maximize
+  scoring potential.
+</div>
+
+SOURCE: C-Spin (Hard Drop) - https://harddrop.com/wiki/C-Spin
+

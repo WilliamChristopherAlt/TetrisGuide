@@ -1,0 +1,30 @@
+<div class="article-title">Used in spliced setups</div>
+
+<div class="h1">STSD in Spliced Setups</div>
+<div class="text">
+  The Super T-Spin Double pattern is commonly used in spliced setups, where multiple
+  patterns are combined to create complex stacking sequences. Understanding how STSD
+  integrates into spliced setups is crucial for advanced play.
+</div>
+
+---
+
+<div class="h2">Splicing STSD</div>
+<div class="text">
+  When splicing STSD into other setups, the pattern must be adapted to fit the existing
+  structure while maintaining its T-Spin Double potential. This requires careful
+  piece management and planning.
+</div>
+
+[[BOARD: spliced_stsd.txt]]
+
+---
+
+<div class="h2">Integration Techniques</div>
+<div class="text">
+  Several techniques exist for integrating STSD into spliced setups. These include
+  layering, sandwiching, and interweaving patterns to create seamless transitions.
+</div>
+
+SOURCE: Spliced Setups (Hard Drop) - https://harddrop.com/wiki/Spliced_Setups
+

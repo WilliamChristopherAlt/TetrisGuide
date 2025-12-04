@@ -1,0 +1,29 @@
+<div class="article-title">Main setup</div>
+
+<div class="h1">Super T-Spin Double Main Setup</div>
+<div class="text">
+  The Super T-Spin Double (STSD) main setup is a powerful pattern that creates
+  opportunities for high-scoring T-Spin Doubles. This setup is fundamental to
+  advanced stacking strategies.
+</div>
+
+---
+
+<div class="h2">Standard STSD Pattern</div>
+<div class="text">
+  The main STSD setup follows a specific pattern that maximizes T-Spin Double
+  potential. This pattern is versatile and can be adapted to various board states.
+</div>
+
+[[BOARD: main_stsd_pattern.txt]]
+
+---
+
+<div class="h2">Execution Tips</div>
+<div class="text">
+  When executing the STSD main setup, pay attention to piece order and timing.
+  Proper execution ensures maximum scoring and maintains stack stability.
+</div>
+
+SOURCE: STSD Main Setup (Hard Drop) - https://harddrop.com/wiki/STSD_Main_Setup
+

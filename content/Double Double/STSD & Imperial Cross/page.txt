@@ -1,0 +1,39 @@
+<div class="article-title">STSD & Imperial Cross</div>
+
+<div class="h1">STSD and Imperial Cross Double Double</div>
+<div class="text">
+  This page covers the Super T-Spin Double (STSD) and Imperial Cross patterns used
+  in Double Double setups. Both patterns offer unique advantages in competitive play.
+</div>
+
+---
+
+<div class="h2">STSD Pattern</div>
+<div class="text">
+  The Super T-Spin Double pattern creates a setup that allows for powerful T-Spin
+  Double execution. This pattern is commonly used in advanced stacking strategies.
+</div>
+
+[[BOARD: stsd_pattern.txt]]
+
+---
+
+<div class="h2">Imperial Cross Pattern</div>
+<div class="text">
+  The Imperial Cross is a distinctive Double Double setup that forms a cross-like
+  structure. This pattern provides excellent T-Spin Double opportunities.
+</div>
+
+[[BOARD: imperial_cross_pattern.txt]]
+
+---
+
+<div class="h2">Comparing Patterns</div>
+<div class="text">
+  Both STSD and Imperial Cross have their strengths. STSD offers more flexibility,
+  while Imperial Cross provides a more compact structure.
+</div>
+
+SOURCE: STSD (Hard Drop) - https://harddrop.com/wiki/STSD
+SOURCE: Imperial Cross (Tetris Wiki) - https://tetris.wiki/Imperial_Cross
+

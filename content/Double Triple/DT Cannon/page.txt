@@ -1,0 +1,29 @@
+<div class="article-title">DT Cannon</div>
+
+<div class="h1">DT Cannon Setup</div>
+<div class="text">
+  The DT Cannon is a Double Triple setup that creates a "cannon" structure allowing
+  for consecutive T-Spin Triple executions. This pattern is highly effective for
+  scoring and maintaining stack control.
+</div>
+
+---
+
+<div class="h2">Cannon Structure</div>
+<div class="text">
+  The DT Cannon setup forms a distinctive cannon-like shape that enables multiple
+  T-Spin Triple opportunities. The structure is built to maximize consecutive clears.
+</div>
+
+[[BOARD: cannon_structure.txt]]
+
+---
+
+<div class="h2">Building the Cannon</div>
+<div class="text">
+  Constructing the DT Cannon requires careful piece placement to maintain the cannon
+  shape while keeping the stack stable and ready for T-Spin Triple execution.
+</div>
+
+SOURCE: DT Cannon (Hard Drop) - https://harddrop.com/wiki/DT_Cannon
+

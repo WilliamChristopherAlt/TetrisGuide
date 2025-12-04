@@ -1,0 +1,28 @@
+<div class="article-title">T-Spin Triple</div>
+
+<div class="h1">T-Spin Triple Setup</div>
+<div class="text">
+  The T-Spin Triple is an advanced technique that clears three lines with T-Spin bonus.
+  This setup requires more precise stacking but offers excellent scoring potential.
+</div>
+
+---
+
+<div class="h2">Triple Setup Pattern</div>
+<div class="text">
+  The T-Spin Triple setup creates a deeper cavity that allows the T-piece to clear
+  three lines when rotated correctly. This pattern is more complex than the Double setup.
+</div>
+
+[[BOARD: triple_setup.txt]]
+
+---
+
+<div class="h2">Key Considerations</div>
+<div class="text">
+  When building a T-Spin Triple setup, ensure you have enough height and maintain
+  the correct cavity shape. The setup can be vulnerable to misdrops.
+</div>
+
+SOURCE: T-Spin Triple (Hard Drop) - https://harddrop.com/wiki/T-Spin_Triple
+

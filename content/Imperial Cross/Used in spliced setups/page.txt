@@ -1,0 +1,30 @@
+<div class="article-title">Used in spliced setups</div>
+
+<div class="h1">Imperial Cross in Spliced Setups</div>
+<div class="text">
+  The Imperial Cross pattern is frequently used in spliced setups, where it combines
+  with other patterns to create complex stacking sequences. Understanding its role
+  in spliced setups is essential for advanced techniques.
+</div>
+
+---
+
+<div class="h2">Splicing Imperial Cross</div>
+<div class="text">
+  When splicing Imperial Cross into other setups, the cross structure must be
+  adapted to fit seamlessly with existing patterns while maintaining its T-Spin
+  Double capabilities.
+</div>
+
+[[BOARD: spliced_cross.txt]]
+
+---
+
+<div class="h2">Integration Strategies</div>
+<div class="text">
+  Several strategies exist for integrating Imperial Cross into spliced setups,
+  including layering techniques and pattern interweaving to maximize efficiency.
+</div>
+
+SOURCE: Imperial Cross Spliced (Hard Drop) - https://harddrop.com/wiki/Imperial_Cross_Spliced
+

@@ -1,0 +1,31 @@
+<div class="article-title">Sandwhiching a setup with notch and base</div>
+
+<div class="h1">Sandwiching Setup with Notch and Base</div>
+<div class="text">
+  Sandwiching a setup with notch and base is an advanced technique that involves
+  placing one setup pattern between a notch structure and a base structure. This
+  creates a layered pattern that enables multiple T-Spin opportunities.
+</div>
+
+---
+
+<div class="h2">Notch and Base Structure</div>
+<div class="text">
+  The notch and base structure provides the foundation for sandwiching setups. The
+  notch creates a cavity for T-Spin execution, while the base provides stability
+  and additional pattern support.
+</div>
+
+[[BOARD: notch_base_structure.txt]]
+
+---
+
+<div class="h2">Sandwiching Technique</div>
+<div class="text">
+  When sandwiching a setup between notch and base, the middle pattern must be carefully
+  positioned to maintain all three structures' integrity while maximizing scoring
+  potential.
+</div>
+
+SOURCE: Sandwiching Techniques (Hard Drop) - https://harddrop.com/wiki/Sandwiching_Techniques
+

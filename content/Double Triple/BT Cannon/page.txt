@@ -1,0 +1,29 @@
+<div class="article-title">BT Cannon</div>
+
+<div class="h1">BT Cannon Setup</div>
+<div class="text">
+  The BT Cannon is a Double Triple setup variant that uses a different stacking
+  approach compared to DT Cannon. The BT (Back-to-Back) Cannon emphasizes consecutive
+  T-Spin Triple execution with optimal piece usage.
+</div>
+
+---
+
+<div class="h2">BT Cannon Pattern</div>
+<div class="text">
+  The BT Cannon creates a structure optimized for back-to-back T-Spin Triples. This
+  pattern maximizes scoring potential through consecutive clears.
+</div>
+
+[[BOARD: bt_cannon_pattern.txt]]
+
+---
+
+<div class="h2">Key Differences</div>
+<div class="text">
+  The BT Cannon differs from DT Cannon in its stacking approach and piece requirements.
+  Understanding these differences helps in choosing the right pattern for each situation.
+</div>
+
+SOURCE: BT Cannon (Tetris Wiki) - https://tetris.wiki/BT_Cannon
+

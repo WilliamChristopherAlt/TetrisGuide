@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block title %}Tetris Guide · Pages{% endblock %}
+
+{% block content %}
+<div class="page-wrapper">
+  <div class="page-inner">
+    <div class="article-title">Available Pages</div>
+    {% if pages %}
+    <ul class="page-list">
+      {% for name in pages %}
+      <li class="page-list-item">
+        <a href="{{ url_for('view_page', page_path=name) }}" class="page-link"
+          >{{ name }}</a
+        >
+        <a
+          href="{{ url_for('editor_page', page_path=name) }}"
+          class="page-link-secondary"
+          >editor</a
+        >
+      </li>
+      {% endfor %}
+    </ul>
+    {% else %}
+    <div class="text">
+      No pages yet. Create a <code>.txt</code> file under
+      <code>content/pages/</code> (for example <code>demo.txt</code>) and
+      refresh this page.
+    </div>
+    {% endif %}
+  </div>
+  </div>
+</div>
+{% endblock %}
+
+

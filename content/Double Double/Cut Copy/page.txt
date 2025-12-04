@@ -1,0 +1,29 @@
+<div class="article-title">Cut Copy</div>
+
+<div class="h1">Cut Copy Double Double</div>
+<div class="text">
+  The Cut Copy pattern is a Double Double setup that involves cutting and copying
+  sections of the stack to create T-Spin Double opportunities. This technique
+  requires precise piece management.
+</div>
+
+---
+
+<div class="h2">Cut Copy Technique</div>
+<div class="text">
+  The Cut Copy method involves strategically placing pieces to "cut" sections of
+  the stack and "copy" patterns that enable consecutive T-Spin Doubles.
+</div>
+
+[[BOARD: cut_copy_pattern.txt]]
+
+---
+
+<div class="h2">Execution Sequence</div>
+<div class="text">
+  After setting up the Cut Copy pattern, execute the T-Spin Doubles in the correct
+  order to maximize the setup's potential.
+</div>
+
+SOURCE: Cut Copy Pattern (Tetris Wiki) - https://tetris.wiki/Cut_Copy
+

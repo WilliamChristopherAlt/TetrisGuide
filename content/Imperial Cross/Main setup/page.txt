@@ -1,0 +1,29 @@
+<div class="article-title">Main setup</div>
+
+<div class="h1">Imperial Cross Main Setup</div>
+<div class="text">
+  The Imperial Cross main setup creates a distinctive cross-shaped structure that
+  enables powerful T-Spin Double execution. This pattern is highly recognizable
+  and effective in competitive play.
+</div>
+
+---
+
+<div class="h2">Cross Structure</div>
+<div class="text">
+  The Imperial Cross forms a cross-like pattern on the board, with strategic cavities
+  that allow for T-Spin Double execution. The structure is compact and efficient.
+</div>
+
+[[BOARD: cross_structure.txt]]
+
+---
+
+<div class="h2">Building the Cross</div>
+<div class="text">
+  Constructing the Imperial Cross requires precise piece placement to maintain the
+  cross shape while creating the necessary cavities for T-Spin Double execution.
+</div>
+
+SOURCE: Imperial Cross Main Setup (Hard Drop) - https://harddrop.com/wiki/Imperial_Cross_Main_Setup
+

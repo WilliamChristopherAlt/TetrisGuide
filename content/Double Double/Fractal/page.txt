@@ -1,0 +1,29 @@
+<div class="article-title">Fractal</div>
+
+<div class="h1">Fractal Double Double Setup</div>
+<div class="text">
+  The Fractal pattern is a Double Double setup that creates a self-similar structure
+  allowing for multiple T-Spin Double opportunities. This pattern is named for its
+  recursive appearance.sfdfsdfs
+</div>
+
+---
+
+<div class="h2">Fractal Structure</div>
+<div class="text">
+  The Fractal setup creates multiple cavities that mirror each other, allowing you
+  to execute T-Spin Doubles in sequence. This pattern maximizes efficiency.
+</div>
+
+[[BOARD: fractal_structure.txt]]
+
+---
+
+<div class="h2">Building the Pattern</div>
+<div class="text">
+  Constructing the Fractal pattern requires careful piece placement to maintain
+  the self-similar structure while keeping the stack stable.
+</div>
+
+SOURCE: Fractal Pattern (Hard Drop) - https://harddrop.com/wiki/Fractal
+

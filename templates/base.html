@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% block title %}Tetris Stack Exchange{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='styles.css') }}" />
+  </head>
+  <body>
+    {# Toggle this flag to control whether the Editor button appears #}
+    {% set SHOW_EDITOR_LINK = false %}
+
+    <header class="navbar">
+      <div class="navbar-left">
+        <a href="{{ url_for('index') }}" class="navbar-brand">Tetris Stack Exchange</a>
+        {% if all_pages %}
+        <div class="search-container" id="page-search-root">
+          <input
+            id="page-search-input"
+            class="search-input"
+            type="text"
+            placeholder="Search pages..."
+            autocomplete="off"
+          />
+          <div id="page-search-dropdown" class="search-dropdown" style="display: none;"></div>
+        </div>
+        {% endif %}
+      </div>
+      <nav class="navbar-right">
+        {% if SHOW_EDITOR_LINK and page_path and not request.url.path.startswith('/editor') %}
+        <a class="navbar-link" href="{{ url_for('editor_page', page_path=page_path) }}">
+          Editor
+        </a>
+        {% endif %}
+      </nav>
+    </header>
+
+    <div class="layout" id="main-layout">
+      <aside class="sidebar" id="sidebar">
+        <div class="sidebar-section">
+          <div class="sidebar-title">Navigation</div>
+          <ul class="sidebar-list">
+            {% for node in sidebar_tree %}
+            <li class="sidebar-dir">
+              <button
+                type="button"
+                class="sidebar-dir-toggle"
+                data-dir="{{ node.key }}"
+              >
+                <span class="sidebar-dir-caret">▸</span>
+                <span class="sidebar-dir-name">{{ node.name }}</span>
+              </button>
+              <ul class="sidebar-dir-children">
+                {% for child in node.children %}
+                  {% if child.type == 'page' %}
+                  <li>
+                    <a
+                      href="{{ url_for('view_page', page_path=child.path) }}"
+                      class="sidebar-link{% if page_path == child.path %} sidebar-link-active{% endif %}"
+                    >
+                      {{ child.name }}
+                    </a>
+                  </li>
+                  {% elif child.type == 'dir' %}
+                  <li class="sidebar-subdir">
+                    <button
+                      type="button"
+                      class="sidebar-dir-toggle sidebar-subdir-toggle"
+                      data-dir="{{ node.key }}-{{ child.key }}"
+                    >
+                      <span class="sidebar-dir-caret">▸</span>
+                      <span class="sidebar-dir-name">{{ child.name }}</span>
+                    </button>
+                    <ul class="sidebar-dir-children">
+                      {% for subpage in child.children %}
+                      <li>
+                        <a
+                          href="{{ url_for('view_page', page_path=subpage.path) }}"
+                          class="sidebar-link{% if page_path == subpage.path %} sidebar-link-active{% endif %}"
+                        >
+                          {{ subpage.name }}
+                        </a>
+                      </li>
+                      {% endfor %}
+                    </ul>
+                  </li>
+                  {% endif %}
+                {% endfor %}
+              </ul>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </aside>
+      <div class="sidebar-resizer" id="sidebar-resizer"></div>
+
+      <main class="content">
+        {% block content %}{% endblock %}
+      </main>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        Tetris Guide · Built with FastAPI · William Christopher &mdash; {{ year }}
+      </div>
+    </footer>
+    {% if all_pages %}
+    <script>
+      (function () {
+        const pages = {{ all_pages | tojson | safe }};
+        const input = document.getElementById("page-search-input");
+        const dropdown = document.getElementById("page-search-dropdown");
+        if (!input || !dropdown) return;
+
+        function renderList(query) {
+          const q = (query || "").toLowerCase();
+          const filtered = pages.filter((p) => !q || p.toLowerCase().includes(q));
+          if (!filtered.length) {
+            dropdown.style.display = "none";
+            dropdown.innerHTML = "";
+            return;
+          }
+          dropdown.innerHTML = filtered
+            .map(
+              (name) =>
+                '<div class="search-item" data-name="' +
+                name +
+                '">' +
+                name +
+                "</div>"
+            )
+            .join("");
+          dropdown.style.display = "block";
+        }
+
+        input.addEventListener("input", (e) => {
+          renderList(e.target.value);
+        });
+
+        dropdown.addEventListener("click", (e) => {
+          const target = e.target.closest(".search-item");
+          if (!target) return;
+          const name = target.getAttribute("data-name");
+          if (name) {
+            window.location.href = "/" + name;
+          }
+        });
+
+        document.addEventListener("click", (e) => {
+          const root = document.getElementById("page-search-root");
+          if (!root) return;
+          if (!root.contains(e.target)) {
+            dropdown.style.display = "none";
+          }
+        });
+
+        // initial full list when focusing
+        input.addEventListener("focus", () => renderList(input.value));
+      })();
+    </script>
+    {% endif %}
+    <script>
+      (function () {
+        const dirToggles = document.querySelectorAll(".sidebar-dir-toggle");
+        dirToggles.forEach((btn) => {
+          btn.addEventListener("click", () => {
+            const li = btn.closest(".sidebar-dir");
+            const sub = btn.closest(".sidebar-subdir");
+            const target = sub || li;
+            if (!target) return;
+            target.classList.toggle("sidebar-dir-expanded");
+          });
+        });
+      })();
+
+      // Sidebar resizer
+      (function () {
+        const layout = document.getElementById("main-layout");
+        const sidebar = document.getElementById("sidebar");
+        const resizer = document.getElementById("sidebar-resizer");
+        if (!layout || !sidebar || !resizer) return;
+
+        let isDragging = false;
+        const minWidth = 200;
+        const maxWidth = 400;
+
+        resizer.addEventListener("mousedown", (e) => {
+          isDragging = true;
+          document.body.style.cursor = "col-resize";
+          e.preventDefault();
+        });
+
+        document.addEventListener("mouseup", () => {
+          if (!isDragging) return;
+          isDragging = false;
+          document.body.style.cursor = "";
+        });
+
+        document.addEventListener("mousemove", (e) => {
+          if (!isDragging) return;
+          const rect = layout.getBoundingClientRect();
+          const offsetX = e.clientX - rect.left;
+          let width = offsetX;
+          if (width < minWidth) width = minWidth;
+          if (width > maxWidth) width = maxWidth;
+          sidebar.style.width = width + "px";
+          sidebar.style.flexShrink = "0";
+        });
+      })();
+    </script>
+  </body>
+</html>
+
+

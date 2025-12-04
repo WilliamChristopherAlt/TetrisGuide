@@ -1,0 +1,31 @@
+<div class="article-title">Layering a setup on top of a setup</div>
+
+<div class="h1">Layering Setups</div>
+<div class="text">
+  Layering a setup on top of another setup is an advanced technique that creates
+  multi-level patterns. This approach maximizes board efficiency by stacking
+  multiple T-Spin opportunities vertically.
+</div>
+
+---
+
+<div class="h2">Layering Technique</div>
+<div class="text">
+  The layering technique involves building one setup pattern on top of another,
+  creating a vertical stack of T-Spin opportunities. This requires careful planning
+  to maintain both patterns' integrity.
+</div>
+
+[[BOARD: layered_setup.txt]]
+
+---
+
+<div class="h2">Multi-Level Execution</div>
+<div class="text">
+  Executing layered setups requires understanding the execution order and piece
+  requirements for each level. Proper execution ensures maximum scoring from
+  all layers.
+</div>
+
+SOURCE: Layering Techniques (Hard Drop) - https://harddrop.com/wiki/Layering_Techniques
+

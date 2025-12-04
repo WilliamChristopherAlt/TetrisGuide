@@ -1,0 +1,31 @@
+<div class="article-title">Main setup</div>
+
+<div class="h1">Single Double Main Setup</div>
+<div class="text">
+  The Single Double main setup is a fundamental pattern for creating T-Spin Double
+  opportunities. This setup is versatile and can be adapted to various situations.
+</div>
+
+---
+
+<div class="h2">Standard Pattern</div>
+<div class="text">
+  The main setup involves creating a specific stacking pattern that naturally leads
+  to a T-Spin Double opportunity. This pattern is one of the most reliable setups
+  in competitive play.
+</div>
+
+[[BOARD: main_pattern.txt]]
+
+---
+
+<div class="h2">Variations</div>
+<div class="text">
+  While the main setup follows a standard pattern, there are several variations
+  that can be used depending on the pieces available and the current board state.
+</div>
+
+[[BOARD: variation.txt]]
+
+SOURCE: Single Double Setup (Tetris Wiki) - https://tetris.wiki/Single_Double
+

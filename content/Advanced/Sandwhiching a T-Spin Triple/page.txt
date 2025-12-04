@@ -1,0 +1,30 @@
+<div class="article-title">Sandwhiching a T-Spin Triple</div>
+
+<div class="h1">Sandwiching a T-Spin Triple</div>
+<div class="text">
+  Sandwiching a T-Spin Triple involves placing a T-Spin Triple setup between other
+  patterns or structures. This advanced technique creates complex stacking sequences
+  that maximize scoring potential.
+</div>
+
+---
+
+<div class="h2">Triple Sandwich Structure</div>
+<div class="text">
+  The T-Spin Triple sandwich structure requires careful planning to maintain the
+  triple setup's integrity while integrating it with surrounding patterns. This
+  creates a powerful combination.
+</div>
+
+[[BOARD: triple_sandwich.txt]]
+
+---
+
+<div class="h2">Execution Considerations</div>
+<div class="text">
+  Executing a sandwiched T-Spin Triple requires precise piece management and timing.
+  The surrounding structures must be maintained while executing the triple setup.
+</div>
+
+SOURCE: T-Spin Triple Sandwiching (Hard Drop) - https://harddrop.com/wiki/T-Spin_Triple_Sandwiching
+

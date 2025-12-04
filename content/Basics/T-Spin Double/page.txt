@@ -1,0 +1,30 @@
+<div class="article-title">T-Spin Double</div>
+
+<div class="h1">T-Spin Double Setup</div>
+<div class="text">
+  The T-Spin Double is one of the most common and useful T-Spin techniques. It clears
+  two lines while providing significant bonus points.
+</div>
+
+---
+
+<div class="h2">Basic Setup Pattern</div>
+<div class="text">
+  The classic T-Spin Double setup requires creating a cavity with a notch on one side.
+  The T-piece is then rotated into this space to clear two lines simultaneously.
+</div>
+
+[[BOARD: setup_pattern.txt]]
+
+---
+
+<div class="h2">Execution</div>
+<div class="text">
+  Once the setup is complete, place the T-piece and rotate it into the cavity. The
+  rotation must be performed correctly to achieve the T-Spin bonus.
+</div>
+
+[[BOARD: execution.txt]]
+
+SOURCE: T-Spin Double (Hard Drop) - https://harddrop.com/wiki/T-Spin_Double
+

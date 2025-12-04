@@ -1,0 +1,33 @@
+<div class="article-title">Spliced STSD variants</div>
+
+<div class="h1">Spliced STSD Variants</div>
+<div class="text">
+  Spliced STSD variants are advanced techniques that combine Super T-Spin Double
+  patterns with other setups to create complex and powerful stacking sequences.
+  These variants offer increased flexibility and scoring potential.
+</div>
+
+---
+
+<div class="h2">Common Variants</div>
+<div class="text">
+  There are several common spliced STSD variants, each with unique characteristics
+  and applications. Understanding these variants helps in adapting to different
+  board states and piece sequences.
+</div>
+
+[[BOARD: variant1.txt]]
+
+---
+
+<div class="h2">Advanced Techniques</div>
+<div class="text">
+  Advanced spliced STSD variants involve complex pattern combinations that require
+  precise execution and careful planning. These techniques are used in high-level
+  competitive play.
+</div>
+
+[[BOARD: variant2.txt]]
+
+SOURCE: Spliced STSD Variants (Hard Drop) - https://harddrop.com/wiki/Spliced_STSD_Variants
+

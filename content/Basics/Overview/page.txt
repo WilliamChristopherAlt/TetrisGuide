@@ -1,0 +1,48 @@
+<div class="article-title">Overview</div>
+
+<div class="h1">Introduction to T-Spin Techniques</div>
+<div class="text">
+  This guide will attempt to explain T-Spin setups, from the fundamentals. There have been many guides out there and
+  tons of helpful documentaion on harddrop.com and tetris.wiki, but despite the immense usefullness of these sites for
+  getting to know how to do setups and gameplay techniques, I can't seem to find any articles that attempts to explain
+  everything from the basics.
+</div>
+<div class="text">
+  My goal is to compile a tightly structured list of T-Spin setups and explain how and each of every single one of them
+  is designed, and that the reader should leave this guide knowing how they could've designed these setups themselves.
+  And ultimately, I want you to feel confident enough to make a T-Spin setup of your own. Notice I will laser focus on 
+  the core empty shapes that define T-Spin setups, not the outer stacking with actual specific tetrominos used to build them.
+</div>
+<div class="text">
+  Knowing how to design T-Spins setups benefits one's soul greatly for the following reasons:
+  1. It's fun
+  2. T-Spin setups are aesthetically beautiful
+  3. Knowing how these setups are built really helps you be more aware of efficient building structures in real battles
+  So without further ado.... Here's the guide
+</div>
+---
+
+<div class="h2">What Are T-Spins?</div>
+<div class="text">
+  T-Spins are advanced techniques where a T-piece is rotated into a cavity that cannot
+  be entered through simple horizontal movement. They provide bonus points and are
+  essential for competitive play.
+</div>
+
+[[BOARD: basic_tspin.txt]]
+
+---
+
+<div class="h2">Types of T-Spins</div>
+<div class="text">
+  There are several types of T-Spins, each with different setups and applications:
+</div>
+
+<ul>
+  <li>T-Spin Single: Clears 1 line with T-Spin bonus</li>
+  <li>T-Spin Double: Clears 2 lines with T-Spin bonus</li>
+  <li>T-Spin Triple: Clears 3 lines with T-Spin bonus</li>
+</ul>
+
+SOURCE: T-Spin (Tetris Wiki) - https://tetris.wiki/T-Spin
+

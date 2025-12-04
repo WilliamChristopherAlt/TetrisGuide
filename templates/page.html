@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page_path }} · Tetris Stack Exchange{% endblock %}
+
+{% block content %}
+<div class="page-layout">
+  <div class="page-content-wrapper">
+    <div class="page-inner">
+      {{ rendered_content | safe }}
+
+      {% if sources %}
+      <section class="sources-panel">
+        <div class="sources-title">Sources</div>
+        {% for s in sources %}
+        <div class="source-item">
+          {{ s.label }} - <a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.url }}</a>
+        </div>
+        {% endfor %}
+      </section>
+      {% endif %}
+    </div>
+  </div>
+
+  {% if headings %}
+  <aside class="page-structure-sidebar">
+    <div class="structure-title">Table of Contents</div>
+    <nav class="structure-nav">
+      {% for heading in headings %}
+      <a href="#{{ heading.id }}" class="structure-link structure-level-{{ heading.level }}">
+        {{ heading.text }}
+      </a>
+      {% endfor %}
+    </nav>
+  </aside>
+  {% endif %}
+</div>
+{% endblock %}
+

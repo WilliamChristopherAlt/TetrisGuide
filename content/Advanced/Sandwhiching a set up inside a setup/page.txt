@@ -1,0 +1,31 @@
+<div class="article-title">Sandwhiching a set up inside a setup</div>
+
+<div class="h1">Sandwiching Setup Inside Setup</div>
+<div class="text">
+  Sandwiching a setup inside another setup is an extremely advanced technique that
+  creates nested patterns. This approach embeds one T-Spin setup within another,
+  creating complex and powerful stacking sequences.
+</div>
+
+---
+
+<div class="h2">Nested Structure</div>
+<div class="text">
+  The nested structure requires one setup to be built inside the cavities or spaces
+  of another setup. This creates a compact pattern with multiple T-Spin opportunities
+  in a single structure.
+</div>
+
+[[BOARD: nested_setup.txt]]
+
+---
+
+<div class="h2">Complex Execution</div>
+<div class="text">
+  Executing nested setups is highly complex and requires precise piece placement
+  and timing. The inner setup must be executed before the outer setup to maintain
+  structural integrity.
+</div>
+
+SOURCE: Nested Setups (Hard Drop) - https://harddrop.com/wiki/Nested_Setups
+
